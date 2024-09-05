@@ -27,7 +27,7 @@ const Home = ({ searchParams }: SearchParamProps) => {
           </div>
         </section>
         <video
-          src="/assets/onboarding-video.mp4" 
+          src="/assets/onboarding-video.mp4" // Update with your video source
           height="1000"
           width="1000"
           className="side-img max-w-[50%]"
