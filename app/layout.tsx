@@ -13,7 +13,7 @@ const fontSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: "Medix",
-  description: "A HealthCare Management System",
+  description: "A HealthCare booking management System",
 };
 
 export default function RootLayout({
@@ -23,10 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn('min-h-screen bg-dark-300 font-sans antialiased', fontSans.variable)}>
+      <body className={cn('min-h-screen bg-light-200 font-sans antialiased', fontSans.variable)}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="light"
         >
           {children}
         </ThemeProvider>
