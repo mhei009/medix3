@@ -14,7 +14,7 @@ const Home = ({ searchParams }: SearchParamProps) => {
       <div className="flex h-screen max-h-screen">
         {isAdmin && <PasskeyModal />}
         <section className="remove-scrollbar container my-auto">
-          <div className="sub-container max-w-[496px]">
+          <div className="sub-container max-w-[496px] mt-14">
             <PatientForm />
             <div className="text-16-regular mt-20 flex justify-between">
               <p className="justify-items-end text-dark-600 xl:text-left">
